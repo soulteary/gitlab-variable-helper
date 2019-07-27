@@ -1,0 +1,1 @@
+soulteary/gitlab-variable-helper:1.0.0
