@@ -1,0 +1,12 @@
+variables:
+  SOURCE_DIR:         $CI_PROJECT_DIR
+
+stages:
+  - deploy
+
+update:
+  stage: deploy
+  script:
+    - docker-compose down && docker-compose up
+    # 或者
+    # - docker run --rm -v `pwd`/settings.json:/app/settings.json soulteary/gitlab-variable-helper:1.0.0

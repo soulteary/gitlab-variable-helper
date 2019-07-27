@@ -1,0 +1,8 @@
+version: '3.6'
+
+services:
+
+  updater:
+    image: docker.lab.com/gitlab-group-variable-update:1.0.0
+    volumes:
+     - ./settings.json:/app/settings.json

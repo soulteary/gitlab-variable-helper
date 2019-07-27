@@ -1,0 +1,31 @@
+{
+    "baseHost": "https://gitlab.lab.com/api/v4",
+    "token": "H7hHmdCnryy7UCeFB7tH",
+    "groupIds": [
+        5
+    ],
+    "groupVars": {
+        "publicVars": {
+            "VAR_PUB": 1024
+        }
+    },
+    "projectIds": [
+        774,
+        775
+    ],
+    "projectVars": {
+        "privateVars": {
+            "VAR_HIDE": 1024,
+            "VAR_HIDE2": 1024
+        }
+    },
+    "projectVars:775": {
+        "publicVars": {
+            "VAR_775_PUB": 2048
+        },
+        "privateVars": {
+            "VAR_775_HIDE": 2048,
+            "VAR_775_HIDE2": 2048
+        }
+    }
+}
