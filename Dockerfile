@@ -8,4 +8,6 @@ WORKDIR /app
 
 RUN npm i --production
 
+VOLUME [ "/app/settings.json" ]
+
 ENTRYPOINT [ "npm", "start" ]
